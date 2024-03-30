@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ProfileImage from "../ProfileImage";
 
 const ProfileCardContainer = styled.article`
   background: #1f1f1f;
@@ -11,7 +12,11 @@ const ProfileCardContainer = styled.article`
 `;
 
 const ProfileCard = () => {
-  return <ProfileCardContainer></ProfileCardContainer>;
+  return (
+    <ProfileCardContainer>
+      <ProfileImage />
+    </ProfileCardContainer>
+  );
 };
 
 export default ProfileCard;
