@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import ProfileImage from "../ProfileImage";
 import PersonalInformation from "../PersonalInformation";
+import ProfessionDescription from "../ProfessionDescription";
 
 const ProfileCardContainer = styled.article`
   background: #1f1f1f;
@@ -17,6 +18,7 @@ const ProfileCard = () => {
     <ProfileCardContainer>
       <ProfileImage />
       <PersonalInformation />
+      <ProfessionDescription />
     </ProfileCardContainer>
   );
 };
