@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import ProfileImage from "../ProfileImage";
+import PersonalInformation from "../PersonalInformation";
 
 const ProfileCardContainer = styled.article`
   background: #1f1f1f;
@@ -15,6 +16,7 @@ const ProfileCard = () => {
   return (
     <ProfileCardContainer>
       <ProfileImage />
+      <PersonalInformation />
     </ProfileCardContainer>
   );
 };
