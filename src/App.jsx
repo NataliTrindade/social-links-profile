@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -15,10 +15,19 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
+const MainStylized = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+`;
+
 const App = () => {
   return (
     <>
       <GlobalStyles />
+      <MainStylized />
     </>
   );
 };
