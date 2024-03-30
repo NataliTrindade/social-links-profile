@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+import ProfileCard from "./components/ProfileCardContainer";
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -27,7 +28,9 @@ const App = () => {
   return (
     <>
       <GlobalStyles />
-      <MainStylized />
+      <MainStylized>
+        <ProfileCard />
+      </MainStylized>
     </>
   );
 };
