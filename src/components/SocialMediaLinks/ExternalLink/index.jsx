@@ -6,6 +6,7 @@ const StyledExternalLinkItem = styled.li`
   padding: 10px;
   border-radius: 5px;
   font-weight: bold;
+  text-align: center;
   transition: all 0.3s ease-in-out;
   &:hover {
     transform: scale(1.1);
